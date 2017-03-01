@@ -13,3 +13,8 @@ typeof(vec_double)
 typeof(vec_character)
 typeof(vec_logical)
 typeof(vec_integer)
+vec_cx <- c(1, 2, 3, 4.5, 6, "7") #coerce. to store more info....
+
+mtl <- cbind(vec_logical, vec_integer)
+
+mt2 <- rbind(vec_logical, vec_character)
