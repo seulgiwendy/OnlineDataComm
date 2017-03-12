@@ -1,0 +1,5 @@
+vec10 = c("봄" , "여름", "가을", "겨울")
+vec11 = c("봄", "가을", "늦여름", "초가을")
+union(vec10, vec11)
+setdiff(vec10, vec11)
+intersect(vec10, vec11)
