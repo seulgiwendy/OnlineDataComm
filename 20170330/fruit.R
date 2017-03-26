@@ -1,0 +1,1 @@
+aggregate(판매금액~이름, fruitsales, sum)
