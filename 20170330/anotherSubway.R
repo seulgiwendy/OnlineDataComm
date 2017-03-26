@@ -5,3 +5,7 @@ seungchahacha = aggregate(승차 + 하차~노선번호, data1, sum)
 attach(data1)
 tapply(승차, 노선번호, sum)
 tapply(하차, 노선번호, sum)
+ridingByLines 
+gettingOffByLines
+withoutLines
+seungchahacha
