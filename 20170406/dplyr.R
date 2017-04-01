@@ -1,0 +1,7 @@
+filter(Fruits, Expenses > 80)
+filter(Fruits, Expenses > 90 & Sales > 90)
+filter(Fruits, Expenses > 90 | Sales > 80)
+filter(Fruits, Expenses == 79 | Expenses == 91)
+select(Fruits, Year, Sales, Expenses, Profit, Date)
+Fruits %>% group_by(Fruit) %>% summarise_each(funs(sum), Sales)
+Fruits%>%group_by(Fruit)%>%summarise_each(funs(sum), Sales, Profit)
