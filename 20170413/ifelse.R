@@ -86,11 +86,11 @@ whileExercise = function(){
 }
 
 gugu = function(){
-  for (i in 2:9){
+  for (i in 2:10){
     for (e in 1:9){
-      answer = toString(c(i, "*", e, "=", i * e))
-      finalAnswer = str_replace_all(answer, ",","")
-      print(finalAnswer)
+      print(paste(i, "*", e, "=", i * e))
+      #finalAnswer = str_replace_all(answer, ",","")
+      #print(finalAnswer)
     }
   }
 }
